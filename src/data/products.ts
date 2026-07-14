@@ -153,3 +153,101 @@ export const categories: ProductCategory[] = [
 export function getCategoryBySlug(slug: string): ProductCategory | undefined {
   return categories.find((c) => c.slug === slug);
 }
+
+/* ── Compatibility data (for /compatibility/ page) ── */
+
+export interface CompatibilityBrand {
+  name: string;
+  origin: string;
+  models: string[];
+}
+
+export interface CompatibilitySeries {
+  series: string;
+  slug: string;
+  description: string;
+  sizes?: string[];
+  brands: CompatibilityBrand[];
+}
+
+export const compatibilityData: CompatibilitySeries[] = [
+  {
+    series: "128 Pet Guard Comb Blades",
+    slug: "pet-128",
+    description:
+      "Snap-on guard comb blades in MIM powder metallurgy. Available in 0.2mm, 3mm, 6mm, 9mm, and 12mm cutting lengths.",
+    sizes: ["0.2mm", "3mm", "6mm", "9mm", "12mm"],
+    brands: [
+      {
+        name: "Codos",
+        origin: "China (Shenzhen)",
+        models: [
+          "CP-6800", "CP-7800", "CP-8000", "CP-9200", "CP-9600",
+          "KP-3000", "CP-3100", "CP-3180", "CP-5500", "TP-1680", "TP-2680",
+        ],
+      },
+      {
+        name: "YOS",
+        origin: "China (Jiangxi)",
+        models: ["LB-8780", "LB-9860", "LB-9870", "LB-9880", "LB-9890", "LB-628", "LB-8180", "LB-8580"],
+      },
+      {
+        name: "AUX",
+        origin: "China (Ningbo)",
+        models: ["C1", "C2", "C3", "C5", "C6", "C6S", "Pro", "AUX-01", "A5", "A6", "A7", "S9"],
+      },
+      {
+        name: "KONKA",
+        origin: "China (Shenzhen)",
+        models: ["KLFQ-3305-T", "KLFQ-3709-T", "KZ-J01", "KZ-J05"],
+      },
+      {
+        name: "CHIGO",
+        origin: "China (Foshan)",
+        models: ["ZG-F838", "ZG-F828", "ZG-F938", "ZG-F1138"],
+      },
+    ],
+  },
+  {
+    series: "D-Series Pet Blades",
+    slug: "pet-d",
+    description:
+      "Professional detachable pet clipper blades in MIM powder metallurgy. Full range from #40 (0.25mm) to #3F (13mm).",
+    sizes: ["0.25mm (#40)", "1.5mm (#10)", "3.2mm (#7F)", "6.4mm (#5F)", "9.6mm (#4F)", "13mm (#3F)"],
+    brands: [
+      { name: "LAUBE", origin: "USA", models: ["322", "208", "318", "320", "304", "306", "329"] },
+      { name: "Wahl", origin: "USA", models: ["8260"] },
+      { name: "Shenjian", origin: "China", models: ["S1", "K1"] },
+      { name: "TAA", origin: "China", models: ["T1", "T2"] },
+      { name: "YOS / Yingkun", origin: "China", models: ["970D", "980D"] },
+      { name: "LOVE SHOW", origin: "China", models: ["L4 (Yangmei Series)", "L5 (Pantao Series)"] },
+      { name: "Shernbao", origin: "China", models: ["878"] },
+      { name: "Telite", origin: "China", models: ["970D", "D1"] },
+    ],
+  },
+  {
+    series: "A5 Universal Snap-On Blades",
+    slug: "pet-a5",
+    description:
+      "Industry-standard A5 detachable blades. Fits Andis®, Oster®, Wahl® KM series, and most professional pet clippers worldwide.",
+    sizes: [
+      "Paw Blade", "0.2mm (#50)", "0.25mm (#40)", "0.5mm (#30)",
+      "1.5mm (#10)", "2.0mm (#9)", "3.2mm (#7F)", "6.3mm (#5F)",
+      "9.5mm (#4F)", "13mm (#3F)",
+    ],
+    brands: [
+      { name: "Andis", origin: "USA", models: ["AGC", "UltraEdge", "Excel", "ProClip"] },
+      { name: "Oster", origin: "USA", models: ["A5", "Golden A5", "Turbo A5", "PowerPro"] },
+      { name: "Wahl", origin: "USA", models: ["KM2", "KM5", "KM10", "Bravura"] },
+      { name: "LAUBE", origin: "USA", models: ["All A5-compatible models"] },
+      { name: "Heiniger", origin: "Switzerland", models: ["Saphir", "Opal", "Xplorer"] },
+    ],
+  },
+];
+
+export const surfaceFinishes = [
+  { name: "Gold", color: "#C5961A" },
+  { name: "Silver Grey", color: "#A0A0A0" },
+  { name: "Black", color: "#2A2A2A" },
+  { name: "Rose Gold", color: "#B76E79" },
+];
