@@ -1,0 +1,9 @@
+name = "sumthinblades"
+compatibility_date = "2025-04-01"
+pages_build_output_dir = "out"
+
+# D1 database for inquiries (create after first deploy)
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "sumthinblades-inquiries"
+# database_id = "" # fill after `wrangler d1 create`

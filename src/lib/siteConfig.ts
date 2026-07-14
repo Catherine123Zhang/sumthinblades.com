@@ -31,6 +31,6 @@ export const siteConfig = {
     youtube: "",
   },
 
-  ga4Id: "", // TODO: set up GA4
-  gscVerification: "", // TODO: set up GSC
+  ga4Id: "G-31ZH48BKGX",
+  gscVerification: "googleeeba790177c1d921", // HTML file method
 } as const;

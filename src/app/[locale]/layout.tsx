@@ -6,8 +6,11 @@ import { getDictionary } from "@/dictionaries";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
+import Script from "next/script";
 import { OrganizationSchema } from "@/components/schema/OrganizationSchema";
 import "../globals.css";
+
+const GA_ID = "G-31ZH48BKGX";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -69,6 +72,12 @@ export default async function LocaleLayout({
 
   return (
     <html lang={validLocale} className={`${inter.variable} h-full antialiased`}>
+      <head>
+        <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} strategy="afterInteractive" />
+        <Script id="ga4" strategy="afterInteractive">
+          {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${GA_ID}');`}
+        </Script>
+      </head>
       <body className="min-h-full flex flex-col font-[var(--font-inter)]">
         <OrganizationSchema />
         <Header dict={dict} locale={validLocale} />
