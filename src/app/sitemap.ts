@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { siteConfig } from "@/lib/siteConfig";
 import { locales } from "@/lib/i18n";
+import { posts } from "@/data/blog";
 
 export const dynamic = "force-static";
 
@@ -59,6 +60,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
             locales.map((l) => [l, `${siteConfig.url}/${l}/products/${slug}/`])
           ),
         },
+      });
+    }
+
+    // Blog pages
+    entries.push({
+      url: `${siteConfig.url}/${locale}/blog/`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.7,
+    });
+    for (const post of posts) {
+      entries.push({
+        url: `${siteConfig.url}/${locale}/blog/${post.slug}/`,
+        lastModified: post.date,
+        changeFrequency: "monthly",
+        priority: 0.8,
       });
     }
   }
