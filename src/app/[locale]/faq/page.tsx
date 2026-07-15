@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { isValidLocale } from "@/lib/i18n";
 import { CTABanner } from "@/components/CTABanner";
+import { AnimateOnScroll } from "@/components/AnimateOnScroll";
 
 export async function generateMetadata({
   params,
@@ -86,12 +87,13 @@ export default async function FAQPage({
       />
 
       {/* Hero */}
-      <section className="bg-primary text-text-inverse">
-        <div className="section-container py-16 md:py-20">
-          <h1 className="text-3xl md:text-4xl font-bold mb-4">
+      <section className="bg-primary text-text-inverse overflow-hidden relative">
+        <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: "url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")" }} />
+        <div className="relative section-container py-16 md:py-20">
+          <h1 className="hero-animate hero-animate-delay-1 text-3xl md:text-4xl font-bold mb-4">
             Frequently Asked Questions
           </h1>
-          <p className="text-lg text-gray-300 max-w-2xl">
+          <p className="hero-animate hero-animate-delay-2 text-lg text-gray-300 max-w-2xl">
             Everything you need to know about ordering clipper blades, OEM manufacturing, and working with SUMTHIN.
           </p>
         </div>
@@ -102,33 +104,36 @@ export default async function FAQPage({
         <div className="section-container max-w-3xl">
           <div className="space-y-6">
             {faqs.map((faq, i) => (
-              <details
-                key={i}
-                className="group border border-border rounded-lg overflow-hidden"
-                open={i === 0}
-              >
-                <summary className="flex items-center justify-between p-5 cursor-pointer font-semibold hover:bg-bg-alt transition-colors">
-                  {faq.q}
-                  <span className="shrink-0 ml-4 text-text-light group-open:rotate-45 transition-transform text-xl">
-                    +
-                  </span>
-                </summary>
-                <div className="px-5 pb-5 text-text-light leading-relaxed border-t border-border pt-4">
-                  {faq.a}
-                </div>
-              </details>
+              <AnimateOnScroll key={i} animation="fade-up" delay={i * 0.06} duration={0.5}>
+                <details
+                  className="group border border-border rounded-lg overflow-hidden hover:border-primary/30 hover:shadow-sm transition-all duration-300"
+                  open={i === 0}
+                >
+                  <summary className="flex items-center justify-between p-5 cursor-pointer font-semibold hover:bg-bg-alt transition-colors">
+                    {faq.q}
+                    <span className="shrink-0 ml-4 text-text-light group-open:rotate-45 transition-transform duration-300 text-xl">
+                      +
+                    </span>
+                  </summary>
+                  <div className="px-5 pb-5 text-text-light leading-relaxed border-t border-border pt-4">
+                    {faq.a}
+                  </div>
+                </details>
+              </AnimateOnScroll>
             ))}
           </div>
         </div>
       </section>
 
-      <CTABanner
-        title="Still Have Questions?"
-        subtitle="Our team is happy to help. Reach out and we'll respond within 12 hours."
-        ctaText="Contact Us"
-        ctaHref={`${prefix}/contact/`}
-        variant="dark"
-      />
+      <AnimateOnScroll animation="fade-up">
+        <CTABanner
+          title="Still Have Questions?"
+          subtitle="Our team is happy to help. Reach out and we'll respond within 12 hours."
+          ctaText="Contact Us"
+          ctaHref={`${prefix}/contact/`}
+          variant="dark"
+        />
+      </AnimateOnScroll>
     </>
   );
 }

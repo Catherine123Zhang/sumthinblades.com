@@ -4,6 +4,7 @@ import { isValidLocale } from "@/lib/i18n";
 import { getDictionary } from "@/dictionaries";
 import { siteConfig } from "@/lib/siteConfig";
 import { InquiryForm } from "@/components/InquiryForm";
+import { AnimateOnScroll } from "@/components/AnimateOnScroll";
 
 export async function generateMetadata({
   params,
@@ -37,10 +38,11 @@ export default async function ContactPage({
   return (
     <>
       {/* Hero */}
-      <section className="bg-primary text-text-inverse">
-        <div className="section-container py-16 md:py-20">
-          <h1 className="text-3xl md:text-4xl font-bold mb-4">{dict.contact.heroTitle}</h1>
-          <p className="text-lg text-gray-300 max-w-2xl">{dict.contact.heroSubtitle}</p>
+      <section className="bg-primary text-text-inverse overflow-hidden relative">
+        <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: "url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")" }} />
+        <div className="relative section-container py-16 md:py-20">
+          <h1 className="hero-animate hero-animate-delay-1 text-3xl md:text-4xl font-bold mb-4">{dict.contact.heroTitle}</h1>
+          <p className="hero-animate hero-animate-delay-2 text-lg text-gray-300 max-w-2xl">{dict.contact.heroSubtitle}</p>
         </div>
       </section>
 
@@ -48,13 +50,13 @@ export default async function ContactPage({
         <div className="section-container">
           <div className="grid lg:grid-cols-5 gap-12">
             {/* Form — 3 columns */}
-            <div className="lg:col-span-3">
+            <AnimateOnScroll animation="fade-left" duration={0.8} className="lg:col-span-3">
               <h2 className="text-2xl font-bold mb-6">Send Us an Inquiry</h2>
               <InquiryForm dict={dict} />
-            </div>
+            </AnimateOnScroll>
 
             {/* Contact info — 2 columns */}
-            <div className="lg:col-span-2">
+            <AnimateOnScroll animation="fade-right" delay={0.2} duration={0.8} className="lg:col-span-2">
               <h2 className="text-2xl font-bold mb-6">Other Ways to Reach Us</h2>
 
               {/* WhatsApp CTA */}
@@ -114,7 +116,7 @@ export default async function ContactPage({
                   <li className="flex items-center gap-2">✓ FOB Ningbo — fast shipping</li>
                 </ul>
               </div>
-            </div>
+            </AnimateOnScroll>
           </div>
         </div>
       </section>
