@@ -89,8 +89,20 @@ export function Footer({ dict }: FooterProps) {
           </div>
         </div>
 
+        {/* Partner Network */}
+        <div className="mt-10 pt-5 border-t border-gray-700">
+          <p className="text-xs text-gray-600 text-center">
+            Part of a trusted Zhejiang manufacturing network:{" "}
+            <a href="https://hl-water.net/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">Ningbo XZH — Water Filter Manufacturer</a>
+            <span className="mx-1.5">·</span>
+            <a href="https://desikyspray.com/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">Desiky — Continuous Spray Bottle Manufacturer</a>
+            <span className="mx-1.5">·</span>
+            <a href="https://sunwrapfilm.com/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">SUNWRAP — PVC Cling Film Manufacturer</a>
+          </p>
+        </div>
+
         {/* Bottom bar */}
-        <div className="mt-12 pt-8 border-t border-gray-700">
+        <div className="mt-6 pt-6 border-t border-gray-700">
           <p className="text-xs text-gray-500 text-center">
             {dict.footer.copyright.replace("{year}", String(year))}
           </p>
