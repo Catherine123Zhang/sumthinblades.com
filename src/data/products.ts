@@ -176,7 +176,7 @@ export const compatibilityData: CompatibilitySeries[] = [
     slug: "pet-128",
     description:
       "Snap-on guard comb blades in MIM powder metallurgy. Available in 0.2mm, 3mm, 6mm, 9mm, and 12mm cutting lengths.",
-    sizes: ["0.2mm", "3mm", "6mm", "9mm", "12mm"],
+    sizes: ["1mm", "3mm", "6mm", "9mm", "12mm"],
     brands: [
       {
         name: "Codos",
@@ -206,6 +206,19 @@ export const compatibilityData: CompatibilitySeries[] = [
         origin: "China (Foshan)",
         models: ["ZG-F838", "ZG-F828", "ZG-F938", "ZG-F1138"],
       },
+    ],
+  },
+  {
+    series: "128 Hair Clipper Guard Combs",
+    slug: "human-128",
+    description:
+      "Snap-on guard comb blades for human hair clippers. Imported stainless steel blade with ABS body. Available in 1mm, 3mm, 6mm, 9mm, and 12mm cutting lengths.",
+    sizes: ["1mm", "3mm", "6mm", "9mm", "12mm"],
+    brands: [
+      { name: "Wahl", origin: "China (Haining)", models: ["WF808", "WF809"] },
+      { name: "FLYCO", origin: "China", models: ["FC5902", "FC5908", "FC5910", "FC5915"] },
+      { name: "Kangfu", origin: "China", models: ["KF-T109", "KF-T110"] },
+      { name: "AUX", origin: "China (Ningbo)", models: ["A5", "A6", "A7"] },
     ],
   },
   {

@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
-import Link from "next/link";
-import { ArrowRight } from "lucide-react";
 import { isValidLocale } from "@/lib/i18n";
 import { CTABanner } from "@/components/CTABanner";
 import { AnimateOnScroll } from "@/components/AnimateOnScroll";
+import { CompatibilitySearch } from "@/components/CompatibilitySearch";
 import { compatibilityData } from "@/data/products";
 
 export async function generateMetadata({
@@ -39,87 +38,25 @@ export default async function CompatibilityPage({
             Blade Compatibility Guide
           </h1>
           <p className="hero-animate hero-animate-delay-2 text-lg text-gray-300 max-w-3xl">
-            Find SUMTHIN replacement blades for your clipper. We manufacture blades compatible with all major
-            professional and consumer brands — same dimensional specs, same performance, factory-direct pricing.
+            Find SUMTHIN replacement blades for your clipper. Search by brand name or clipper model number — we manufacture blades compatible with all major professional and consumer brands.
           </p>
         </div>
       </section>
 
-      {/* Series Sections */}
+      {/* Interactive search + tables */}
       <section className="section-padding">
-        <div className="section-container space-y-16">
-          {compatibilityData.map((series, si) => (
-            <AnimateOnScroll key={series.slug} animation="fade-up" delay={si * 0.05} duration={0.6}>
-              <div id={series.slug}>
-                <div className="mb-6">
-                  <h2 className="text-2xl md:text-3xl font-bold text-primary mb-2">
-                    {series.series}
-                  </h2>
-                  <p className="text-text-light max-w-3xl">
-                    {series.description}
-                  </p>
-                  {series.sizes && (
-                    <div className="flex flex-wrap gap-2 mt-4">
-                      {series.sizes.map((size) => (
-                        <span
-                          key={size}
-                          className="px-3 py-1 bg-primary/10 text-primary text-sm rounded-full font-medium hover:bg-primary/20 transition-colors"
-                        >
-                          {size}
-                        </span>
-                      ))}
-                    </div>
-                  )}
-                </div>
-
-                <div className="overflow-x-auto">
-                  <table className="w-full text-sm border-collapse">
-                    <thead>
-                      <tr className="bg-bg-alt border-b-2 border-border">
-                        <th className="text-left p-4 font-semibold">Brand</th>
-                        <th className="text-left p-4 font-semibold">Origin</th>
-                        <th className="text-left p-4 font-semibold">Compatible Clipper Models</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {series.brands.map((brand, i) => (
-                        <tr
-                          key={brand.name}
-                          className={`border-b border-border hover:bg-primary/5 transition-colors ${i % 2 === 0 ? "" : "bg-bg-alt/50"}`}
-                        >
-                          <td className="p-4 font-semibold text-primary whitespace-nowrap">
-                            {brand.name}
-                          </td>
-                          <td className="p-4 text-text-light whitespace-nowrap">
-                            {brand.origin}
-                          </td>
-                          <td className="p-4 text-text-light">
-                            {brand.models.join(", ")}
-                          </td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-
-                <div className="mt-4">
-                  <Link
-                    href={`${prefix}/contact/`}
-                    className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:text-primary-light hover:gap-2 transition-all"
-                  >
-                    Request {series.series} Quote <ArrowRight className="w-4 h-4" />
-                  </Link>
-                </div>
-              </div>
-            </AnimateOnScroll>
-          ))}
+        <div className="section-container">
+          <CompatibilitySearch
+            data={compatibilityData}
+            contactHref={`${prefix}/contact/`}
+          />
 
           {/* Trademark Notice */}
           <AnimateOnScroll animation="fade-up">
-            <div className="p-5 bg-bg-alt rounded-lg border border-border text-sm text-text-light">
+            <div className="mt-16 p-5 bg-bg-alt rounded-lg border border-border text-sm text-text-light">
               <p className="font-medium text-text mb-2">Trademark Notice</p>
               <p>
-                Wahl®, Andis®, Oster®, Lister Star®, Heiniger®, and other brand names mentioned are
+                Wahl®, Andis®, Oster®, Lister Star®, Heiniger®, FLYCO, and other brand names mentioned are
                 registered trademarks of their respective owners. SUMTHIN blades are aftermarket
                 replacement parts manufactured to the same dimensional specifications. They are not
                 manufactured by or affiliated with these brands. &quot;Compatible with&quot;
