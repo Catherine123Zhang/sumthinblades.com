@@ -254,28 +254,24 @@ export default async function HomePage({
                 Our precision machining serves some of the most recognized professional clipper brands in the world.
               </p>
               <p className="text-text-light leading-relaxed mb-6">
-                With 360 employees, 50+ R&amp;D engineers, 20+ patents, and a 45-acre manufacturing campus,
+                With 200+ employees, a dedicated R&amp;D team, 70+ patents, and a 45-acre manufacturing campus,
                 we bring OEM-grade quality to every blade — whether it carries our SUMTHIN® brand or yours.
               </p>
               <Link href={`${prefix}/about/`} className="btn-primary text-sm">
                 Learn Our Story <ArrowRight className="w-4 h-4" />
               </Link>
             </AnimateOnScroll>
-            <AnimateOnScroll animation="fade-right" delay={0.2} duration={0.8}>
-              <div className="grid grid-cols-2 gap-3">
-                {factoryImages.slice(0, 4).map((img, i) => (
-                  <div key={img} className="aspect-[4/3] bg-bg-alt rounded-lg overflow-hidden border border-border">
-                    <Image
-                      src={img}
-                      alt={`SUMTHIN factory - ${i + 1}`}
-                      width={300}
-                      height={225}
-                      className="object-cover w-full h-full hover:scale-105 transition-transform duration-500"
-                    />
-                  </div>
-                ))}
+            <div>
+              <div className="rounded-2xl overflow-hidden border border-border shadow-lg">
+                <Image
+                  src="/images/factory/aboutus-aerial.jpg"
+                  alt="SUMTHIN factory aerial view — 45-acre manufacturing campus in Haining, Zhejiang"
+                  width={800}
+                  height={600}
+                  className="w-full h-auto object-cover"
+                />
               </div>
-            </AnimateOnScroll>
+            </div>
           </div>
         </div>
       </section>

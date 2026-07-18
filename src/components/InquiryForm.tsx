@@ -77,13 +77,12 @@ export function InquiryForm({ dict, productName }: InquiryFormProps) {
       <div className="grid sm:grid-cols-2 gap-5">
         <div>
           <label htmlFor="name" className="block text-sm font-medium mb-1.5">
-            {dict.contact.formName} <span className="text-red-500">*</span>
+            {dict.contact.formName}
           </label>
           <input
             id="name"
             name="name"
             type="text"
-            required
             className="w-full px-4 py-3 border border-border rounded-md focus:ring-2 focus:ring-primary/30 focus:border-primary outline-none transition"
             placeholder="John Smith"
           />

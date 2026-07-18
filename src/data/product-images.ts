@@ -147,14 +147,15 @@ export function getCategoryImages(slug: string): string[] {
 
 /** Factory images for the About page */
 export const factoryImages = [
-  "/images/about/factory/1668398664122913.png",
-  "/images/about/factory/1668398691107996.png",
-  "/images/about/factory/1668398702158215.png",
-  "/images/about/factory/1668398717324712.png",
-  "/images/about/factory/1668398787146586.png",
-  "/images/about/factory/1668398828968416.png",
-  "/images/about/factory/1668398893561741.png",
-  "/images/about/factory/1668398946488242.png",
+  "/images/factory/assembly-workers-line.jpg",
+  "/images/factory/injection-molding-zhafir.jpg",
+  "/images/factory/mim-sintering-hiper.jpg",
+  "/images/factory/workshop-grinding.jpg",
+  "/images/factory/workshop-inspection.jpg",
+  "/images/factory/workshop-packaging.jpg",
+  "/images/factory/assembly-workshop.jpg",
+  "/images/factory/injection-molding-wide.jpg",
+  "/images/factory/mim-sintering-furnaces.jpg",
 ];
 
 /** Logo images */

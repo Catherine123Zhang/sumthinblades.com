@@ -2,18 +2,18 @@
 
 /* ── Design Tokens ── */
 :root {
-  /* Brand colors — industrial steel blue + warm accent */
-  --color-primary: #1a3a5c;
-  --color-primary-light: #2d5f8a;
-  --color-primary-dark: #0f2740;
-  --color-accent: #d4a853;
-  --color-accent-light: #e8c67a;
-  --color-accent-dark: #b08a3a;
+  /* Brand colors — dark charcoal matching SUMTHIN® logo */
+  --color-primary: #2a2a2a;
+  --color-primary-light: #404040;
+  --color-primary-dark: #1a1a1a;
+  --color-accent: #c8a84e;
+  --color-accent-light: #dfc06e;
+  --color-accent-dark: #a88c35;
 
   /* Neutrals */
   --color-bg: #ffffff;
   --color-bg-alt: #f7f8fa;
-  --color-bg-dark: #111827;
+  --color-bg-dark: #1a1a1a;
   --color-text: #1f2937;
   --color-text-light: #6b7280;
   --color-text-inverse: #ffffff;

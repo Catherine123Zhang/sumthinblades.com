@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X, ChevronDown } from "lucide-react";
 import type { Dictionary } from "@/dictionaries/en";
 import type { Locale } from "@/lib/i18n";
@@ -33,12 +34,14 @@ export function Header({ dict, locale }: HeaderProps) {
       <div className="section-container flex items-center justify-between h-16 lg:h-20">
         {/* Logo */}
         <Link href={`${prefix}/`} className="flex items-center gap-2">
-          <span className="text-xl lg:text-2xl font-bold text-primary tracking-tight">
-            SUMTHIN<span className="text-accent">®</span>
-          </span>
-          <span className="hidden sm:block text-xs text-text-light tracking-wider uppercase">
-            Blades
-          </span>
+          <Image
+            src="/images/about/logo/sumthin-logo.jpg"
+            alt="SUMTHIN® Blades"
+            width={120}
+            height={40}
+            className="h-8 lg:h-10 w-auto object-contain"
+            priority
+          />
         </Link>
 
         {/* Desktop Nav */}

@@ -12,15 +12,18 @@ export const siteConfig = {
     founded: 2004,
     employees: 360,
     rdTeam: 50,
-    patents: 20,
+    patents: 70,
     factoryArea: "45 acres / 40,000 m²",
     address: "No. 9-11 Chuangye Road, Yanguan Industrial Park, Haining, Zhejiang, China",
     certifications: ["ISO 9001", "ISO 14001", "SGS", "National High-Tech Enterprise"],
   },
 
   contact: {
-    email: "sales@sumthinblades.com",
+    email: "sumthin2022@163.com",
     phone: "+86-13606732111",
+    tel: "+86-573-87618888",
+    phone2: "+86-13957330008",
+    fax: "+86-573-87618666",
     whatsapp: "+8618268661068", // Vivian's number for first 3 months
     wechat: "18268661068",
   },
