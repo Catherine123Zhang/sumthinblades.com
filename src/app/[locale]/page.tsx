@@ -240,7 +240,7 @@ export default async function HomePage({
       {/* ── OEM Heritage Section ── */}
       <section className="section-padding bg-white">
         <div className="section-container">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="grid lg:grid-cols-[1.15fr_0.85fr] gap-12 lg:gap-16 items-center">
             <AnimateOnScroll animation="fade-left" duration={0.8}>
               <p className="text-accent font-semibold text-sm uppercase tracking-widest mb-3">
                 Our Story
@@ -268,7 +268,7 @@ export default async function HomePage({
                   alt="SUMTHIN factory aerial view — 45-acre manufacturing campus in Haining, Zhejiang"
                   width={800}
                   height={600}
-                  className="w-full h-auto object-cover"
+                  className="w-full max-h-[420px] object-cover object-center"
                 />
               </div>
             </div>
