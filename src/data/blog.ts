@@ -607,6 +607,461 @@ If you have a metal part that currently requires multiple machining operations, 
       },
     ],
   },
+  {
+    slug: "clipper-blade-oil-guide",
+    title: "Clipper Blade Oil Guide: What It Is, How to Use It & Best Alternatives",
+    description:
+      "Everything about clipper blade oil — what it does, how often to oil your blades, best alternatives, and common mistakes. Expert tips from a blade manufacturer.",
+    date: "2026-07-19",
+    readTime: "7 min",
+    category: "Maintenance",
+    keywords: [
+      "clipper oil",
+      "clipper blade oil",
+      "hair clipper oil",
+      "oil for hair clippers",
+      "clipper oil alternative",
+      "blade oil substitute",
+      "how to oil clipper blades",
+    ],
+    content: `
+## Why Clipper Blade Oil Matters
+
+Clipper blade oil is a lightweight lubricant specifically formulated for the moving parts of hair clippers and trimmers. It reduces friction between the cutting blade and the comb blade, preventing heat buildup, extending blade life, and maintaining cutting performance.
+
+Without regular oiling, blades overheat within minutes of continuous use. Heat damages both the blade's tempered edge and the hair or fur being cut — causing pulling, snagging, and uneven results.
+
+## What Clipper Oil Is Made Of
+
+Most professional clipper oils are **refined mineral oil** (petroleum-based, pharmaceutical grade) with a viscosity optimized for the thin gap between blade surfaces. Key properties:
+
+- **Low viscosity** — flows easily into tight blade channels
+- **Non-drying** — won't become sticky or gummy over time
+- **Odorless and skin-safe** — important for barbers working near clients' skin
+- **Corrosion-inhibiting** — protects steel from moisture and oxidation
+
+Premium clipper oils may add synthetic lubricants or anti-wear additives, but basic refined mineral oil works excellently for most applications.
+
+## How Often to Oil Your Blades
+
+**Professional groomers / barbers (continuous use):**
+- Apply 2-3 drops every 10-15 minutes of clipping
+- Always oil before the first client of the day
+- Oil immediately after cleaning at end of day
+
+**Home users (occasional use):**
+- Oil before and after every use
+- If blades feel warm or sound louder than normal, stop and oil immediately
+
+**Where to apply:** Place 2-3 drops across the top blade teeth, then run the clipper for 10 seconds to distribute the oil across the blade surfaces. Wipe excess off with a cloth.
+
+## Clipper Oil Alternatives That Actually Work
+
+If you run out of dedicated clipper oil, these alternatives are safe and effective:
+
+| Alternative | Pros | Cons |
+|-------------|------|------|
+| Light mineral oil (baby oil, unscented) | Same base as clipper oil, widely available | May contain fragrance — use unscented only |
+| Sewing machine oil | Very similar viscosity, designed for metal-on-metal | Slightly thicker than ideal |
+| Clipper spray (coolant + lubricant) | Adds cooling effect, convenient | More expensive per use |
+
+**Never use:** cooking oils (oxidize and become sticky), WD-40 (evaporates and leaves residue), motor oil (too heavy, harmful to skin), coconut oil (solidifies and clogs).
+
+## Signs Your Blades Need Oil
+
+- Blades get hot quickly (within 2-3 minutes)
+- Increased noise or buzzing during operation
+- Blade seems to pull or snag instead of cutting cleanly
+- Visible dryness or rust spots on blade rail
+
+## How Blade Material Affects Oiling
+
+At SUMTHIN, we manufacture blades in three material systems, each with different oiling considerations:
+
+**440C Stainless Steel** — Standard for most clipper blades. Regular oiling prevents micro-corrosion between uses. Our surface polishing reduces the contact area, meaning less oil is needed per application.
+
+**Ceramic (Zirconia) Moving Blade** — Ceramic-on-steel combinations run cooler naturally and resist corrosion. Oiling is still recommended but frequency can be reduced by about 30%.
+
+**DLC-Coated Blades (Diamond-Like Carbon)** — Our DLC nano-coating creates an ultra-hard, low-friction surface that inherently reduces heat and wear. DLC blades require less frequent oiling and maintain their edge significantly longer. This is the premium tier for professionals who want maximum blade longevity.
+
+## Storage Tips
+
+- Always oil before storing blades for extended periods
+- Store in a dry place (humidity accelerates rust on steel blades)
+- If stacking blades, use blade trays or original packaging — blade-on-blade contact can nick cutting edges
+`,
+    faqs: [
+      {
+        q: "Can I use baby oil on clipper blades?",
+        a: "Yes, unscented baby oil is essentially the same as clipper oil — refined mineral oil. Avoid scented varieties as fragrances may irritate skin during haircuts. Apply the same way: 2-3 drops across the blade teeth.",
+      },
+      {
+        q: "How long does clipper oil last once applied?",
+        a: "Under continuous professional use, clipper oil needs reapplication every 10-15 minutes. For home use on a single haircut, one application before starting is usually sufficient.",
+      },
+      {
+        q: "Can over-oiling damage clippers?",
+        a: "Excess oil won't damage the clipper mechanism, but it can transfer to hair/fur and attract dust and hair clippings. Apply 2-3 drops and wipe the excess — that's the right amount.",
+      },
+      {
+        q: "Is clipper oil the same as sewing machine oil?",
+        a: "They are very similar — both are light mineral oils designed for metal-on-metal lubrication. Sewing machine oil works as a temporary substitute. The main difference is viscosity: clipper oil is formulated slightly thinner for the tighter tolerances in blade assemblies.",
+      },
+    ],
+  },
+  {
+    slug: "a5-clipper-blade-guide",
+    title: "The Complete A5 Clipper Blade Guide: Sizes, Brands & Dog Breed Recommendations",
+    description:
+      "Everything about A5 detachable clipper blades — what they are, which sizes to use for each dog breed, brand compatibility (Andis, Wahl, Oster), and how they're manufactured.",
+    date: "2026-07-19",
+    readTime: "9 min",
+    category: "Guides",
+    keywords: [
+      "a5 clipper blades",
+      "a5 blades",
+      "detachable clipper blades",
+      "dog clipper blades",
+      "a5 blade sizes",
+      "clipper oster a5",
+      "dog grooming blades",
+    ],
+    content: `
+## What Are A5 Clipper Blades?
+
+A5 blades are the universal standard for **detachable clipper blades** used in professional pet grooming. The "A5" designation comes from the Oster A5 clipper — the first widely adopted detachable blade system — but today, virtually every professional grooming clipper uses this same interface.
+
+The key advantage: one clipper body, many blade sizes. You snap blades on and off in seconds, switching from a close #10 surgical cut to a longer #3F teddy bear trim without changing tools.
+
+## Universal Compatibility
+
+A5 blades are cross-compatible across all major brands:
+
+| Brand | Compatible Clipper Models |
+|-------|-------------------------|
+| **Andis** | AGC, AGC2, AGC Super 2, AGC Pro, AGP, UltraEdge, Excel |
+| **Wahl** | KM10, KM5, KM2, KM Cordless, Sterling, Show Pro |
+| **Oster** | A5, Golden A5, Turbo A5, A5 Turbo 2, A6, PowerPro |
+| **Moser** | Max45, Max50, Arco |
+| **Laube** | 622, 630, 322 |
+| **SUMTHIN** | All 128-series and D-series pet grooming heads |
+
+This means a groomer can use SUMTHIN A5 blades on their existing Andis, Wahl, or Oster clipper — no adapter needed, direct snap-on fit.
+
+## A5 Blade Sizes for Dog Grooming
+
+| Blade # | Cut Length | Best Use | Common Breeds |
+|---------|-----------|----------|---------------|
+| #40 | 0.25mm | Surgical prep, toe pads | All (specialty use) |
+| #30 | 0.5mm | Close sanitary clips | All (specialty use) |
+| #10 | 1.5mm | Body clips, poodle base | Poodles, Bichons, body work on all breeds |
+| #7F | 3.2mm | All-purpose body clip | Shih Tzu, Maltese, Cockapoo, mixed coats |
+| #5F | 6.4mm | Medium-length pet trims | Labradoodle, Goldendoodle, Cocker Spaniel |
+| #4F | 9.5mm | Longer trims | Breeds with natural coat length |
+| #3F | 13mm | Teddy bear / puppy cuts | Poodle, Bichon, Labradoodle, Cockapoo |
+
+### F (Finish) vs Skip-Tooth
+
+- **F (Finish) blades** — closely spaced teeth, smooth finish, better for final results
+- **Skip-tooth blades** — wider-spaced teeth, faster cutting through thick/matted coats, rougher finish
+
+For most pet grooming, choose F blades. Use skip-tooth only for initial rough work on severely matted animals.
+
+## Choosing Blades by Dog Breed
+
+**Short-coated breeds (Pug, Boxer, Beagle):** Rarely need clipping. When they do (medical or hygiene), #10 or #7F.
+
+**Medium-coated breeds (Cocker Spaniel, Springer Spaniel):** #7F for body, #10 for sanitary areas, #5F for a longer natural look.
+
+**Long/curly-coated breeds (Poodle, Labradoodle, Cockapoo, Goldendoodle):** Most versatile. #10 for poodle pattern base work, #5F-#3F for teddy bear styles, #7F for a shorter summer clip.
+
+**Double-coated breeds (Husky, Golden Retriever, Malamute):** Generally not clipped (coat provides insulation). Exception: sanitary clips with #10.
+
+**Wire-coated breeds (Schnauzer, Cairn Terrier, Welsh Terrier):** Hand-stripping preferred, but clipping with #7F-#5F is common for pet trims.
+
+## How A5 Blades Are Manufactured
+
+At SUMTHIN, we produce A5 blades using **MIM (Metal Injection Molding)** powder metallurgy:
+
+1. **Metal powder + binder** mixed into feedstock
+2. **Injection molded** into blade shape (teeth, rail, slots all formed in one shot)
+3. **Debinding** removes the plastic binder
+4. **Sintering** at 1,000°C+ fuses metal particles into solid steel
+5. **Precision grinding** establishes the cutting edge
+6. **Heat treatment** hardens to HRC 58-62
+7. **Surface finishing** — polish, DLC coating, or ceramic pairing
+
+This produces blades with more consistent tooth geometry than traditional stamping, and allows complex shapes (like the curved tooth profiles on our 128-series) that would be impossible with conventional machining.
+
+## Maintaining Your A5 Blades
+
+- Oil every 10-15 minutes of continuous use
+- Clean hair from between teeth after each dog
+- Store with blade wash or light oil coating to prevent rust
+- Professional resharpening extends blade life 3-5 times before replacement is needed
+- DLC-coated blades from SUMTHIN stay sharper 2-3x longer than standard 440C blades
+`,
+    faqs: [
+      {
+        q: "Are all A5 blades interchangeable between brands?",
+        a: "Yes. The A5 snap-on interface is an industry standard. SUMTHIN A5 blades fit directly onto Andis, Wahl KM, Oster A5, Moser, and virtually all professional pet clippers that accept detachable blades.",
+      },
+      {
+        q: "What A5 blade size should I start with for home grooming?",
+        a: "A #7F (3.2mm) is the safest all-purpose starting point — it leaves enough coat to hide minor unevenness while still providing a neat, clean look. Pair it with a #10 for sanitary areas.",
+      },
+      {
+        q: "How many times can A5 blades be resharpened?",
+        a: "Standard 440C blades can be resharpened 3-5 times before the cutting geometry is lost. DLC-coated blades require less frequent sharpening and may last through their entire service life without it.",
+      },
+      {
+        q: "What is the minimum order for SUMTHIN A5 blades?",
+        a: "For stocked sizes, MOQ is as low as 100-300 pieces per blade size. For custom specifications or private label packaging, MOQ starts at 1,000 pieces.",
+      },
+    ],
+  },
+  {
+    slug: "sheep-shearing-blades-guide",
+    title: "Sheep Shearing Blades: Types, Materials & Maintenance Guide",
+    description:
+      "Professional guide to sheep shearing blades — combs, cutters, materials (MIM vs stamped), maintenance tips, and selection for different wool types. From a manufacturer with 45% China market share.",
+    date: "2026-07-19",
+    readTime: "8 min",
+    category: "Guides",
+    keywords: [
+      "sheep shearing blades",
+      "sheep clipper blades",
+      "shearing blades",
+      "shearing combs and cutters",
+      "sheep shears",
+      "alpaca shearing",
+      "llama shearing",
+    ],
+    content: `
+## Understanding Sheep Shearing Blades
+
+Sheep shearing equipment uses a **two-part blade system**: a wide comb (bottom plate with teeth) and a narrower cutter (oscillating blade on top). The cutter slides across the comb in a scissor-like action, cutting wool fibers as they pass between the comb's teeth.
+
+This is fundamentally different from pet grooming clippers, where both blades are relatively similar in size. In shearing, the comb determines how close to the skin you cut, while the cutter provides the actual cutting action.
+
+## Comb Types and Selection
+
+| Comb Type | Teeth | Cut Closeness | Best For |
+|-----------|-------|---------------|----------|
+| Standard (13 tooth) | 13 wide-spaced | Medium — leaves 3-5mm wool | General flock shearing |
+| Fine (9 tooth) | 9 closely-spaced | Very close — nearly skin-tight | Show preparation, second cuts |
+| Cover comb (20+ tooth) | 20+ narrow-spaced | Leaves 5-10mm wool | Winter shearing, cold climates, dagging |
+| Wide comb (9 tooth) | 9 teeth, wider body | Medium | Faster large-flock shearing |
+
+### Choosing by Season and Purpose
+- **Spring shearing (pre-summer):** Standard 13-tooth for clean removal of winter fleece
+- **Autumn/winter shearing:** Cover comb to leave protective wool layer
+- **Dagging/crutching:** Cover comb or standard, focused on rear/belly
+- **Show preparation:** Fine 9-tooth for close, even finish
+
+## Cutter Types
+
+Cutters are typically 4-point or 5-point:
+- **4-point cutters** — standard, good all-round performance
+- **5-point cutters** — slightly faster cutting action, preferred by high-volume shearers
+
+The cutter must be matched to the comb width. Most professional combs use a standard width that accepts universal cutters.
+
+## Material: MIM Powder Metallurgy vs Stamped Steel
+
+SUMTHIN manufactures sheep shearing blades using **MIM (Metal Injection Molding)**, a significant advancement over traditional stamped blades:
+
+| Factor | MIM Blades | Stamped Blades |
+|--------|-----------|----------------|
+| Edge consistency | Uniform across all teeth | Varies by stamping pressure |
+| Tooth geometry | Complex profiles possible | Limited to flat profiles |
+| Hardness range | HRC 58-63 (precisely controlled) | HRC 55-60 (less uniform) |
+| Production consistency | Near-identical blade-to-blade | 3-5% variation typical |
+| Edge retention | Superior — 20-30% longer between sharpenings | Standard |
+| Cost | Slightly higher per unit | Lower |
+
+For professional shearers processing hundreds of sheep per day, the difference in edge retention directly translates to fewer stops for resharpening — and less fatigue.
+
+## Shearing Alpacas and Llamas
+
+Alpaca and llama fiber is finer and more valuable than sheep wool, requiring extra care:
+
+- **Equipment:** Standard sheep shearing handpieces work, but use a fine-tooth comb or medium comb. Never use a coarse/wide comb on alpacas.
+- **Frequency:** Alpacas are typically shorn once per year (spring), sometimes twice in hot climates.
+- **Technique:** Shear in long, even strokes following the animal's body contour. Alpaca skin is thinner than sheep — less pressure is needed.
+- **Blade selection:** A cover comb (leaving 5-10mm) is safest for beginners. Experienced shearers use standard combs for cleaner fiber harvest.
+
+## Blade Maintenance for Shearing
+
+**Between each animal:**
+- Brush loose wool from comb teeth
+- Check for nicks or bent teeth (replace if damaged)
+
+**Every 20-30 sheep:**
+- Re-oil the cutter/comb interface
+- Check comb tension and cutter pressure
+
+**End of shearing day:**
+- Clean all wool and lanolin residue with blade wash
+- Oil generously before storage
+- Inspect for chips or damage
+
+**Sharpening:**
+- Professional shearing blades should be sharpened on a flat grinding disc, not a bench grinder
+- Both comb and cutter faces must be perfectly flat for proper mating
+- SUMTHIN MIM blades maintain their flatness better than stamped alternatives, requiring less frequent sharpening
+
+## Why Choose SUMTHIN Shearing Blades
+
+With **45% market share** in China's sheep shearing blade category and 6 years of continuous production refinement, SUMTHIN brings:
+
+- MIM powder metallurgy for superior edge retention and consistency
+- Full in-house production (molding, sintering, grinding, heat treatment, surface finishing)
+- MOQ from 500 pieces for distributors
+- OEM/private label available with custom packaging
+- Export experience: currently supplying Turkey, Middle East, and Oceania markets
+`,
+    faqs: [
+      {
+        q: "How often should sheep shearing blades be sharpened?",
+        a: "Depending on wool type and shearing volume, standard blades need sharpening every 20-50 sheep. SUMTHIN MIM blades typically last 30-70 sheep between sharpenings due to superior edge retention from controlled heat treatment.",
+      },
+      {
+        q: "Can sheep shearing blades be used on alpacas?",
+        a: "Yes. Standard sheep shearing handpieces and blades work for alpacas and llamas. Use a fine-tooth or cover comb rather than a wide/coarse comb, and apply less pressure — alpaca skin is thinner than sheep skin.",
+      },
+      {
+        q: "What is the MOQ for sheep shearing blades?",
+        a: "SUMTHIN offers MOQ from 500 pieces for standard combs and cutters. Private label and custom packaging are available at 1,000+ pieces.",
+      },
+      {
+        q: "Do you supply shearing blades compatible with Heiniger and Lister?",
+        a: "Our sheep shearing blades are designed to fit standard shearing handpieces including those from major brands. Contact us with your specific handpiece model for compatibility confirmation.",
+      },
+    ],
+  },
+  {
+    slug: "dlc-vs-pvd-vs-chrome-blade-coatings",
+    title: "DLC vs PVD vs Chrome Plating: Which Blade Coating Lasts Longest?",
+    description:
+      "Expert comparison of blade coating technologies — DLC (Diamond-Like Carbon), PVD titanium, and chrome plating. Hardness, friction, lifespan, and cost analysis from a manufacturer with in-house DLC equipment.",
+    date: "2026-07-19",
+    readTime: "7 min",
+    category: "Technology",
+    keywords: [
+      "dlc coating clipper blades",
+      "blade coating",
+      "pvd coating blades",
+      "diamond blade coating",
+      "dlc vs pvd",
+      "titanium coated blades",
+      "clipper blade coating",
+    ],
+    content: `
+## Why Coat Clipper Blades?
+
+Raw 440C stainless steel is an excellent blade material — hard, corrosion-resistant, and holds an edge well. But surface coatings can dramatically improve three properties:
+
+1. **Reduced friction** — less heat during cutting
+2. **Increased hardness** — better wear resistance
+3. **Lower maintenance** — extended time between oiling and sharpening
+
+Not all coatings are equal. Here's how the three main technologies compare for clipper and grooming blade applications.
+
+## The Three Main Coating Technologies
+
+### DLC (Diamond-Like Carbon)
+
+DLC is a nano-thin film of amorphous carbon with properties approaching natural diamond. It's applied via plasma-assisted chemical vapor deposition (PACVD) in a vacuum chamber.
+
+**Key properties:**
+- Hardness: 2,000-5,000 HV (5-10x harder than steel)
+- Friction coefficient: 0.05-0.15 (extremely low — steel-on-steel is 0.4-0.7)
+- Thickness: 1-3 micrometers
+- Color: Deep black with metallic sheen
+
+**For clipper blades:** DLC-coated blades run cooler, stay sharper longer, and require less frequent oiling. The ultra-low friction means less heat generation during continuous use — critical for professional groomers doing 8+ dogs per day.
+
+### PVD Titanium Coating
+
+PVD (Physical Vapor Deposition) coats blades with titanium nitride (TiN) or similar compounds. It's the most common "decorative + functional" coating in the grooming industry.
+
+**Key properties:**
+- Hardness: 1,500-2,500 HV (3-5x harder than steel)
+- Friction coefficient: 0.3-0.5
+- Thickness: 1-5 micrometers
+- Color: Gold, rose gold, black, or rainbow depending on compound
+
+**For clipper blades:** PVD adds moderate hardness and wear resistance. The main appeal is visual — gold or colored blades command premium pricing. Functional benefit exists but is significantly less than DLC.
+
+### Chrome Plating
+
+Traditional electrochemical plating deposits a thin layer of chromium onto the blade surface.
+
+**Key properties:**
+- Hardness: 800-1,000 HV (2x harder than steel)
+- Friction coefficient: 0.4-0.5 (similar to bare steel)
+- Thickness: 5-50 micrometers
+- Color: Mirror silver/chrome
+
+**For clipper blades:** Chrome provides good corrosion resistance and a polished appearance, but minimal improvement in cutting performance. It's being phased out in many applications due to environmental concerns with hexavalent chromium (Cr6+) in the plating process.
+
+## Head-to-Head Comparison
+
+| Property | DLC | PVD (TiN) | Chrome |
+|----------|-----|-----------|--------|
+| Hardness (HV) | 2,000-5,000 | 1,500-2,500 | 800-1,000 |
+| Friction coefficient | 0.05-0.15 | 0.3-0.5 | 0.4-0.5 |
+| Heat reduction | Significant (40-60%) | Moderate (10-20%) | Minimal |
+| Edge retention improvement | 2-3x longer | 1.3-1.5x longer | ~1.2x longer |
+| Corrosion resistance | Excellent | Good | Excellent |
+| Oiling frequency reduction | 30-50% less | 10-20% less | No change |
+| Environmental impact | Clean process (vacuum) | Clean process (vacuum) | Cr6+ concerns |
+| Cost premium | +40-80% over uncoated | +20-40% over uncoated | +10-20% over uncoated |
+| Available colors | Black, graphite | Gold, rose gold, black, rainbow | Silver/mirror only |
+
+## Which Coating Is Best?
+
+**For professional groomers and barbers (performance priority):**
+DLC is the clear winner. The friction reduction alone justifies the cost — cooler blades mean more comfortable cuts for the animal/client and longer intervals between resharpening.
+
+**For retail/consumer brands (appearance + moderate performance):**
+PVD titanium offers the best balance of visual appeal and functional improvement. Gold or rose gold blades sell at premium prices and perform noticeably better than uncoated steel.
+
+**For budget-conscious bulk production:**
+Standard polish or light chrome plating keeps costs lowest while providing adequate corrosion protection.
+
+## SUMTHIN's In-House DLC Capability
+
+Unlike most blade manufacturers who outsource coating work, SUMTHIN operates **dedicated DLC deposition equipment** in-house. This means:
+
+- Full quality control from raw material to finished coated blade
+- Faster turnaround (no shipping to external coating facility)
+- Custom coating specifications for OEM partners
+- Available DLC colors: black, gold, green, yellow, pink
+- Can combine DLC with ceramic moving blade for ultimate performance
+
+Our DLC process uses graphene-enhanced carbon targets, producing a coating with particularly low surface roughness — important for the blade-on-blade sliding contact in clipper applications.
+`,
+    faqs: [
+      {
+        q: "Is DLC coating worth the extra cost for pet grooming blades?",
+        a: "For professional groomers doing 6+ dogs per day, absolutely. The reduced friction means less heat (more comfortable for animals), less frequent oiling (time savings), and 2-3x longer edge life (fewer blade replacements). The coating typically pays for itself within 2-3 months of professional use.",
+      },
+      {
+        q: "Can DLC-coated blades be resharpened?",
+        a: "Yes, though the coating will be removed from the cutting edge during resharpening. The coated surfaces away from the edge still provide reduced friction benefits. For maximum lifespan, DLC blades should be resharpened by a professional who can minimize coating loss.",
+      },
+      {
+        q: "What is the minimum order for DLC-coated blades from SUMTHIN?",
+        a: "DLC coating is available on any SUMTHIN blade product. MOQ for DLC-coated blades is typically 500 pieces per SKU. Contact us for custom coating specifications.",
+      },
+      {
+        q: "How do I tell if a blade has DLC coating vs regular black PVD?",
+        a: "DLC has a distinctive deep black color with a slightly blue-gray metallic sheen, and feels noticeably smoother to the touch than PVD. Under magnification, DLC surfaces appear mirror-smooth while PVD shows micro-texture. Functionally, a DLC blade will run noticeably cooler during extended use.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
