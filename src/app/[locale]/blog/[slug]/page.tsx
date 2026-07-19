@@ -84,7 +84,17 @@ function renderMarkdown(content: string) {
 
     if (inTable) flushTable();
 
-    if (trimmed.startsWith("### ")) {
+    // Image syntax: ![alt text](src) or ![alt text](src "caption")
+    const imgMatch = trimmed.match(/^!\[([^\]]*)\]\(([^)"]+)(?:\s+"([^"]*)")?\)$/);
+    if (imgMatch) {
+      const [, alt, src, caption] = imgMatch;
+      html.push(`<figure class="my-8">`);
+      html.push(`<img src="${src}" alt="${alt}" class="w-full rounded-lg border border-border shadow-sm" loading="lazy" />`);
+      if (caption) {
+        html.push(`<figcaption class="text-center text-sm text-text-light mt-2 italic">${caption}</figcaption>`);
+      }
+      html.push(`</figure>`);
+    } else if (trimmed.startsWith("### ")) {
       html.push(`<h3 class="text-xl font-bold mt-8 mb-3">${trimmed.slice(4)}</h3>`);
     } else if (trimmed.startsWith("## ")) {
       html.push(`<h2 class="text-2xl font-bold mt-10 mb-4 text-primary">${trimmed.slice(3)}</h2>`);

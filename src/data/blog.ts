@@ -29,6 +29,8 @@ export const posts: BlogPost[] = [
     content: `
 ## Understanding Clipper Blade Numbers
 
+![SUMTHIN A5 detachable clipper blade set showing multiple blade sizes](/images/products/1668564572169143.png "A5 detachable blades — each blade number corresponds to a specific cut length in millimeters")
+
 Clipper blade sizes follow a numbering system where **higher numbers mean shorter cuts**. A #40 blade cuts to 0.25mm (surgical close), while a #3F leaves 13mm of hair or fur. This is counterintuitive for beginners, but once you learn the system it becomes second nature.
 
 The most widely used system is the **A5 detachable blade standard**, originally developed by Oster and now universal across Andis, Wahl KM series, and most professional pet clippers. SUMTHIN manufactures A5 blades in all standard sizes using MIM (Metal Injection Molding) powder metallurgy for superior consistency and edge retention.
@@ -89,6 +91,8 @@ T-blades and U-blades used in trimmers typically cut at 0mm (zero-gap) for sharp
 
 ## Blade Material Matters
 
+![SUMTHIN ceramic moving blade paired with steel comb for reduced heat generation](/images/products/1667886227120405.png "Ceramic (white) + steel blade combination — stays cool 75% longer than all-steel during extended grooming sessions")
+
 The material your blade is made from directly affects performance, longevity, and heat:
 
 **Stainless Steel (440C):** The industry standard. Hardness HRC 58-62, excellent edge retention, affordable. Works for most applications.
@@ -141,6 +145,8 @@ For human clipper blades, SUMTHIN produces replacement blades compatible with Wa
       "clipper blade maintenance",
     ],
     content: `
+![SUMTHIN precision hair clipper blade pair with fine-tooth geometry](/images/products/1667884860576373.png "Fine-tooth blade pair — the cutting edge geometry that eventually dulls with use and requires maintenance")
+
 ## Why Clipper Blades Get Dull
 
 Every clipper blade dulls over time. The cutting edges of the top (moving) and bottom (stationary) blades gradually wear down through friction, contact with hair/fur, and exposure to moisture and grooming products. A dull blade pulls hair instead of cutting it cleanly, generates excessive heat, and leaves uneven results.
@@ -268,6 +274,8 @@ Quality replacement blades don't have to be expensive. SUMTHIN manufactures fact
       "best clipper blade material",
     ],
     content: `
+![SUMTHIN ceramic blade and stainless steel blade side by side for comparison](/images/products/1667886328965737.png "Ceramic (left) vs steel blade — the material difference is visible in color and surface texture")
+
 ## The Short Answer
 
 Ceramic blades last approximately **5× longer** than steel blades and run up to **75% cooler**. They cost more upfront but save money over time through fewer replacements and sharpenings. For professionals who clip all day, ceramic is almost always worth the investment.
@@ -380,6 +388,8 @@ SUMTHIN manufactures all three — steel, ceramic, and MIM — in our own facili
       "replacement clipper blades",
     ],
     content: `
+![SUMTHIN A5 detachable blade and T-blade trimmer blade showing different connection systems](/images/products/1668564537164379.png "A5 snap-on blade — the universal standard across Andis, Wahl, and Oster professional clippers")
+
 ## The Three Main Blade Systems
 
 Not all clipper blades are interchangeable. Before buying replacement blades, you need to know which blade system your clipper uses. There are three main systems in the professional market:
@@ -514,6 +524,8 @@ SUMTHIN has been manufacturing precision clipper blades for over 20 years, inclu
       "clipper blade manufacturing",
     ],
     content: `
+![SUMTHIN manufacturing campus — 45-acre facility in Haining, Zhejiang](/images/factory/aboutus-aerial.jpg "SUMTHIN's manufacturing campus in Haining — where MIM powder metallurgy transforms metal powder into precision clipper blades")
+
 ## Two Ways to Make a Clipper Blade
 
 There are two fundamentally different approaches to manufacturing clipper blades: **traditional machining** and **MIM (Metal Injection Molding) powder metallurgy**. Understanding the difference explains why some blades are more consistent, more durable, and more precise than others.
@@ -627,6 +639,8 @@ If you have a metal part that currently requires multiple machining operations, 
     content: `
 ## Why Clipper Blade Oil Matters
 
+![SUMTHIN precision clipper blade pair showing the contact surfaces that require regular oiling](/images/products/1667884791109649.png "Precision blade pair — the flat mating surfaces between cutter and comb are where oil is most critical")
+
 Clipper blade oil is a lightweight lubricant specifically formulated for the moving parts of hair clippers and trimmers. It reduces friction between the cutting blade and the comb blade, preventing heat buildup, extending blade life, and maintaining cutting performance.
 
 Without regular oiling, blades overheat within minutes of continuous use. Heat damages both the blade's tempered edge and the hair or fur being cut — causing pulling, snagging, and uneven results.
@@ -675,6 +689,8 @@ If you run out of dedicated clipper oil, these alternatives are safe and effecti
 - Visible dryness or rust spots on blade rail
 
 ## How Blade Material Affects Oiling
+
+![SUMTHIN ceramic clipper blade with zirconia moving blade — runs cooler and needs less frequent oiling](/images/products/1667886227120405.png "Ceramic moving blade (white) paired with steel comb — inherently lower friction reduces oiling frequency by ~30%")
 
 At SUMTHIN, we manufacture blades in three material systems, each with different oiling considerations:
 
@@ -729,6 +745,8 @@ At SUMTHIN, we manufacture blades in three material systems, each with different
     content: `
 ## What Are A5 Clipper Blades?
 
+![SUMTHIN A5 detachable pet grooming blade with snap-on latch mechanism](/images/products/1668564537164379.png "A5 detachable blade — the snap-on interface is universal across Andis, Wahl, Oster, and all professional pet clippers")
+
 A5 blades are the universal standard for **detachable clipper blades** used in professional pet grooming. The "A5" designation comes from the Oster A5 clipper — the first widely adopted detachable blade system — but today, virtually every professional grooming clipper uses this same interface.
 
 The key advantage: one clipper body, many blade sizes. You snap blades on and off in seconds, switching from a close #10 surgical cut to a longer #3F teddy bear trim without changing tools.
@@ -780,6 +798,8 @@ For most pet grooming, choose F blades. Use skip-tooth only for initial rough wo
 **Wire-coated breeds (Schnauzer, Cairn Terrier, Welsh Terrier):** Hand-stripping preferred, but clipping with #7F-#5F is common for pet trims.
 
 ## How A5 Blades Are Manufactured
+
+![SUMTHIN A5 blade with precision-machined teeth and latch detail](/images/products/1668564902107057.png "Close-up showing MIM-formed tooth geometry — consistent spacing and edge quality across every blade")
 
 At SUMTHIN, we produce A5 blades using **MIM (Metal Injection Molding)** powder metallurgy:
 
@@ -840,6 +860,8 @@ This produces blades with more consistent tooth geometry than traditional stampi
     content: `
 ## Understanding Sheep Shearing Blades
 
+![SUMTHIN 13-tooth sheep shearing comb manufactured with MIM powder metallurgy](/images/products/1667884563151830.png "13-tooth standard shearing comb — the industry workhorse for general flock shearing")
+
 Sheep shearing equipment uses a **two-part blade system**: a wide comb (bottom plate with teeth) and a narrower cutter (oscillating blade on top). The cutter slides across the comb in a scissor-like action, cutting wool fibers as they pass between the comb's teeth.
 
 This is fundamentally different from pet grooming clippers, where both blades are relatively similar in size. In shearing, the comb determines how close to the skin you cut, while the cutter provides the actual cutting action.
@@ -868,6 +890,8 @@ Cutters are typically 4-point or 5-point:
 The cutter must be matched to the comb width. Most professional combs use a standard width that accepts universal cutters.
 
 ## Material: MIM Powder Metallurgy vs Stamped Steel
+
+![SUMTHIN 9-tooth fine shearing comb for close clips and show preparation](/images/products/1667884595195153.png "9-tooth fine comb — used for show preparation and close body clips where a smooth finish is critical")
 
 SUMTHIN manufactures sheep shearing blades using **MIM (Metal Injection Molding)**, a significant advancement over traditional stamped blades:
 
@@ -970,6 +994,8 @@ Not all coatings are equal. Here's how the three main technologies compare for c
 
 ## The Three Main Coating Technologies
 
+![SUMTHIN blade pairs showing different surface treatments — polished steel, DLC black, and PVD gold](/images/products/1667884917113455.png "Different coating options on the same blade geometry — surface treatment dramatically affects performance and aesthetics")
+
 ### DLC (Diamond-Like Carbon)
 
 DLC is a nano-thin film of amorphous carbon with properties approaching natural diamond. It's applied via plasma-assisted chemical vapor deposition (PACVD) in a vacuum chamber.
@@ -1032,6 +1058,8 @@ PVD titanium offers the best balance of visual appeal and functional improvement
 Standard polish or light chrome plating keeps costs lowest while providing adequate corrosion protection.
 
 ## SUMTHIN's In-House DLC Capability
+
+![SUMTHIN manufacturing campus aerial view — 45 acres with in-house DLC coating facility](/images/factory/aboutus-aerial.jpg "SUMTHIN's 45-acre manufacturing campus in Haining, Zhejiang — DLC, PVD, and electroplating all done in-house")
 
 Unlike most blade manufacturers who outsource coating work, SUMTHIN operates **dedicated DLC deposition equipment** in-house. This means:
 
